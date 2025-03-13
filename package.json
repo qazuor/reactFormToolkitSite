@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@hookform/resolvers": "^4.1.3",
-    "@qazuor/react-form-toolkit": "file:../reactFormToolkit/qazuor-react-form-toolkit-0.1.0.tgz",
+    "@qazuor/react-form-toolkit": "^0.1.1",
     "@radix-ui/react-navigation-menu": "^1.2.5",
     "@radix-ui/react-slot": "^1.1.2",
     "@tailwindcss/vite": "^4.0.14",
