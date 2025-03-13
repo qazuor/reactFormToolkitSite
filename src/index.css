@@ -2,6 +2,8 @@
 
 @plugin "tailwindcss-animate";
 
+@source "../node_modules/@qazuor/react-form-toolkit/dist/index.js";
+
 @custom-variant dark (&:is(.dark *));
 
 :root {
