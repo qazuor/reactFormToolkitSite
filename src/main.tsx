@@ -13,6 +13,7 @@ import EnhancedFeedbackPage from "./pages/examples/EnhancedFeedback.tsx";
 import FormWithButtonsPage from "./pages/examples/FormWithButtons.tsx";
 import InternacionalizationPage from "./pages/examples/Internacionalization.tsx";
 import HomePage from "./pages/home.tsx";
+import DcosPage from "./pages/docs.tsx";
 
 // biome-ignore lint/style/noNonNullAssertion: <explanation>
 createRoot(document.getElementById("root")!).render(
@@ -37,6 +38,7 @@ createRoot(document.getElementById("root")!).render(
 						element={<InternacionalizationPage />}
 					/>
 				</Route>
+				<Route path="docs" element={<DcosPage />}></Route>
 			</Routes>
 		</BrowserRouter>
 	</StrictMode>,
