@@ -3,17 +3,17 @@ import { createRoot } from "react-dom/client";
 import { BrowserRouter, Route, Routes } from "react-router";
 import "./index.css";
 import { MainMenu } from "./components/MainMenu.tsx";
+import AdvancedFormPage from "./pages/AdvancedForm.tsx";
+import AsyncValidationPage from "./pages/AsyncValidation.tsx";
+import BasicFormPage from "./pages/BasicForm.tsx";
+import CustomVisualFeedbackPage from "./pages/CustomVisualFeedback.tsx";
+import EnhancedFeedbackPage from "./pages/EnhancedFeedback.tsx";
+import FormWithButtonsPage from "./pages/FormWithButtons.tsx";
+import InternacionalizationPage from "./pages/Internacionalization.tsx";
 import About from "./pages/about.tsx";
-import ExamplesPage from "./pages/examples.tsx";
-import AdvancedFormPage from "./pages/examples/AdvancedForm.tsx";
-import AsyncValidationPage from "./pages/examples/AsyncValidation.tsx";
-import BasicFormPage from "./pages/examples/BasicForm.tsx";
-import CustomVisualFeedbackPage from "./pages/examples/CustomVisualFeedback.tsx";
-import EnhancedFeedbackPage from "./pages/examples/EnhancedFeedback.tsx";
-import FormWithButtonsPage from "./pages/examples/FormWithButtons.tsx";
-import InternacionalizationPage from "./pages/examples/Internacionalization.tsx";
-import HomePage from "./pages/home.tsx";
 import DcosPage from "./pages/docs.tsx";
+import ExamplesPage from "./pages/examples.tsx";
+import HomePage from "./pages/home.tsx";
 
 // biome-ignore lint/style/noNonNullAssertion: <explanation>
 createRoot(document.getElementById("root")!).render(
